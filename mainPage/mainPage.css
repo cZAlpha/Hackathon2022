@@ -8,8 +8,8 @@ body {
     .topnav {
         background-color: #333;
         overflow: hidden;
-        width:693px;
-        margin:0 auto;
+        width: 577px;
+        margin: 20px auto;
     }
     
     /* Style the links inside the navigation bar */
@@ -35,8 +35,115 @@ body {
     }
 
 /*Body Customization*/
-    /*FOR TESTING ONLY*/
-        /* Changes the text color to black*/
-    .testing {
+    /*Top Image CSS*/
+    .topImage {
+        padding: 5px 20px;
+        font-size: 50px;
         color: white;
+    }
+    .topImageText00 {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+            top: 200px;
+            left: 650px;
+    }
+    .topImageText01 {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+            top: 270px;
+            left: 600px;
+    }
+
+    /*Information About Delaware Homelessness*/
+    .stats{
+        color: white;
+    }
+    .statHeader {
+        font-size: 30px;
+        position: absolute;
+            top: 480px;
+            left: 200px;
+    }
+    .stat00 {
+        font-size: 20px;
+        position: absolute;
+        top: 550px;
+        left: 300px;
+    }
+    .stat01 {
+        font-size: 20px;
+        position: absolute;
+        top: 600px;
+        left: 300px;
+    }
+    .stat02 {
+        font-size: 20px;
+        position: absolute;
+        top: 650px;
+        left: 300px;
+    }
+
+    /*Horizontal Divider00*/
+    .horizontalDiv00 {
+        position: absolute;
+        top: 600px;
+        left: 90px;
+    }
+
+    /*Donations CSS*/
+    .donations{
+        padding: 250px 0px;
+        color: white;
+    }
+    .yearlyDonations {
+        font-size: 30px;
+        position: absolute;
+            top: 840px;
+            left: 200px;
+    }
+    .yearlyDonationsInfo {
+        font-size: 25px;
+        position: absolute;
+            top: 920px;
+            left: 300px;
+    }
+
+    /*Horizontal Divider01*/
+    .horizontalDiv01 {
+        position: absolute;
+        top: 850px;
+        left: 90px;
+    }
+
+    /*Community impact*/
+    .communityImpact {
+        color: white;
+    }
+    .individualImpact {
+        font-size: 30px;
+        position: absolute;
+        top: 1100px;
+        left: 200px;
+    }
+    .individualImpactInfo {
+        font-size: 25px;
+        position: absolute;
+        top: 1200px;
+        left: 300px;
+    }
+
+    /*Bottom Logo*/
+    .bottomLogo {
+        position: absolute;
+        top: 1300px;
+        left: 150px;
+    }
+
+    /*Bottom Social Bar*/
+    .bottomSocialBar {
+        position: absolute;
+        top: 1800px;
+        left: 350px;
     }
